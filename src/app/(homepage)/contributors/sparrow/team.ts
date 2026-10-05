@@ -5,10 +5,11 @@ export type Contributor = {
   zeduUsername?: string;
   githubEmail: string;
   githubUsername?: string;
+  primaryField?: string;
   role: ContributorRole;
 };
 
-type Team = {
+export type Team = {
   name: string;
   image: string;
   contributors: Contributor[];
@@ -24,6 +25,27 @@ export const TEAM: Team = {
       githubEmail: "crypticcodetechnologies@gmail.com",
       githubUsername: "abrahambishopcodes",
       role: "Team Lead",
+    },
+    {
+      fullName: "Denise Moemeke",
+      zeduUsername: "denise_davida",
+      githubEmail: "hello.deniseondata@gmail.com",
+      githubUsername: "databydenise",
+      role: "Member",
+    },
+    {
+      fullName: "Medadi God'sglory Mitana",
+      zeduUsername: "God'sglory",
+      githubEmail: "medadimitana19@gmail.com",
+      githubUsername: "medadimitana19-glitch",
+      role: "Member",
+    },
+    {
+      fullName: "Israel Adelakin",
+      zeduUsername: "ezrahel",
+      githubEmail: "adelakinisrael024@gmail.com",
+      githubUsername: "ezrahel",
+      role: "Member",
     },
     {
       fullName: "Oreofeoluwa Fesobi",
@@ -57,7 +79,7 @@ export const TEAM: Team = {
       fullName: "Amaka Dafe",
       zeduUsername: "Amaka Dafe",
       githubEmail: "amakadafe26@gmail.com",
-      githubUsername: "pepdeveloper",
+      githubUsername: "Pepdeveloper",
       role: "Member",
     },
     {
@@ -77,7 +99,7 @@ export const TEAM: Team = {
     {
       fullName: "Gift Obafaiye",
       zeduUsername: "Gift",
-      githubEmail: "Giftobafaiye@gmail.com",
+      githubEmail: "giftobafaiye@gmail.com",
       githubUsername: "Giftobafaiye",
       role: "Member",
     },
@@ -93,13 +115,6 @@ export const TEAM: Team = {
       zeduUsername: "Adesola",
       githubEmail: "boluwatifeadesola9@gmail.com",
       githubUsername: "adesolabolu",
-      role: "Member",
-    },
-    {
-      fullName: "Denise Moemeke",
-      zeduUsername: "denise_davida",
-      githubEmail: "hello.deniseondata@gmail.com",
-      githubUsername: "databydenise",
       role: "Member",
     },
     {
@@ -119,7 +134,7 @@ export const TEAM: Team = {
     {
       fullName: "Obiageli Ezeokoli",
       zeduUsername: "Oby Ezeokoli",
-      githubEmail: "Oby.eze@gmail.com",
+      githubEmail: "oby.eze@gmail.com",
       githubUsername: "AfrikTechie",
       role: "Member",
     },
@@ -131,24 +146,10 @@ export const TEAM: Team = {
       role: "Member",
     },
     {
-      fullName: "John P",
+      fullName: "Peter John",
       zeduUsername: "John_P",
       githubEmail: "peterjohnimaji72@gmail.com",
-      githubUsername: "John_P",
-      role: "Member",
-    },
-    {
-      fullName: "Medadi God'sglory Mitana",
-      zeduUsername: "God'sglory",
-      githubEmail: "medadimitana19@gmail.com",
-      githubUsername: "medadimitana19-glitch",
-      role: "Member",
-    },
-    {
-      fullName: "Prince Adigwe",
-      zeduUsername: "prince adigwe",
-      githubEmail: "princeadigwe29@gmail.com",
-      githubUsername: "themanprince",
+      githubUsername: "JohnP72",
       role: "Member",
     },
     {
@@ -156,6 +157,13 @@ export const TEAM: Team = {
       zeduUsername: "miracle ette",
       githubEmail: "miracleette2910@gmail.com",
       githubUsername: "miracleette-lab",
+      role: "Member",
+    },
+    {
+      fullName: "Prince Adigwe",
+      zeduUsername: "prince adigwe",
+      githubEmail: "princeadigwe29@gmail.com",
+      githubUsername: "themanprince",
       role: "Member",
     },
     {
@@ -176,7 +184,7 @@ export const TEAM: Team = {
       fullName: "Bewaji Akintomiwa",
       zeduUsername: "Royto",
       githubEmail: "akintomiwabewaji@gmail.com",
-      githubUsername: "akinbewaji",
+      githubUsername: "Akinbewaji",
       role: "Member",
     },
     {
@@ -201,9 +209,9 @@ export const TEAM: Team = {
       role: "Member",
     },
     {
-      fullName: "Joan okereke",
+      fullName: "Joan Okereke",
       zeduUsername: "Jooooh",
-      githubEmail: "Joanokereke7@gmail.com",
+      githubEmail: "joanokereke7@gmail.com",
       githubUsername: "J0HJOH",
       role: "Member",
     },
@@ -229,17 +237,38 @@ export const TEAM: Team = {
       role: "Member",
     },
     {
-      fullName: "Uthman",
+      fullName: "Uthman Idowu",
       zeduUsername: "Uthman | QA Engineer",
       githubEmail: "uthmaidowu531@gmail.com",
       githubUsername: "Denobletech",
       role: "Member",
     },
     {
-      fullName: "Toluwalase",
+      fullName: "Badejo Toluwalase",
       zeduUsername: "Tolu Knightwatch",
       githubEmail: "badejoolorunfunmi@gmail.com",
       githubUsername: "Toluwalase1",
+      role: "Member",
+    },
+    {
+      fullName: "Victor",
+      zeduUsername: "Juice",
+      githubEmail: "soludoonyenekwe@gmail.com",
+      githubUsername: "JuiceAiz",
+      role: "Member",
+    },
+    {
+      fullName: "Godscovenant Patrick Udofe",
+      zeduUsername: "Godscovenant Patrick Udofe",
+      githubEmail: "covenantudofe@gmail.com",
+      githubUsername: "covenantudofe-creator",
+      role: "Member",
+    },
+    {
+      fullName: "Elsie Anucha",
+      zeduUsername: "Elsie Anucha",
+      githubEmail: "elsieanucha@gmail.com",
+      githubUsername: "elsie456",
       role: "Member",
     },
   ],
