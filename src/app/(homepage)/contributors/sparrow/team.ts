@@ -5,6 +5,7 @@ export type Contributor = {
   zeduUsername?: string;
   githubEmail: string;
   githubUsername?: string;
+  primaryField?: string;
   role: ContributorRole;
 };
 
