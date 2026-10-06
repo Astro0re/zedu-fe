@@ -52,6 +52,7 @@ export const TEAM: Team = {
       zeduUsername: "oreofe fesobi",
       githubEmail: "fesobioreofe@gmail.com",
       githubUsername: "Astro0re",
+      primaryField: "Data Analyst",
       role: "Member",
     },
     {
